@@ -1,0 +1,11 @@
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+td {
+  text-transform: capitalize;
+  padding: 4px 70px;
+  border: 2px solid black;
+}
+.center {
+  text-align: center;
+}

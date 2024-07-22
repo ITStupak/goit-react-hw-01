@@ -1,0 +1,16 @@
+.img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+.name {
+  font-size: 28px;
+  font-weight: 500;
+}
+.status {
+  font-size: 18px;
+  font-weight: 300;
+  color: red;
+}
+.online {
+  color: green;
+}
