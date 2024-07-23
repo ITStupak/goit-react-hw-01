@@ -3,10 +3,10 @@ import css from "./Transaction.module.css";
 
 const Transaction = ({ type, amount, currency }) => {
   return (
-    <tr className={clsx(css["tr"])}>
+    <tr>
       <td>{type}</td>
-      <td className={clsx(css["center"])}>{amount}</td>
-      <td className={clsx(css["center"])}>{currency}</td>
+      <td className={clsx(css.center)}>{amount}</td>
+      <td className={clsx(css.center)}>{currency}</td>
     </tr>
   );
 };

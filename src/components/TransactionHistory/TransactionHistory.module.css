@@ -1,16 +1,15 @@
 .table {
-  width: 660px;
+  max-width: 41.25rem;
   margin: 0 auto;
-  border: 2px solid black;
   border-collapse: collapse;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
-thead {
+.thead {
   background-color: #2a2a2a;
   color: #fff;
-  border: 2px solid black;
+  border: 0.125rem solid black;
 }
-th {
-  padding: 4px 0;
-  border: 1px solid black;
+.th {
+  padding: 0.25rem 0;
+  border: 0.0625rem solid black;
 }

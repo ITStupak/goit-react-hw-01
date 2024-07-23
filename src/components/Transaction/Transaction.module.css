@@ -3,8 +3,8 @@ tr:nth-child(even) {
 }
 td {
   text-transform: capitalize;
-  padding: 4px 70px;
-  border: 2px solid black;
+  padding: 0.25rem 4.5rem;
+  border: 0.125rem solid black;
 }
 .center {
   text-align: center;

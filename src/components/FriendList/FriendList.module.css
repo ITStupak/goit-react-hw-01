@@ -1,18 +1,19 @@
 .list {
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;
-  width: 660px;
+  gap: 0.625rem;
+  max-width: 41.25rem;
 }
-.list-item {
+.item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 200px;
-  border: 2px solid black;
-  border-radius: 10px;
+  flex-basis: calc((100% - 3.75rem) / 5);
+  padding: 0.625rem 0;
+  border: 0.125rem solid black;
+  border-radius: 0.625rem;
 }

@@ -1,13 +1,16 @@
 .img {
-  width: 80px;
-  margin-bottom: 10px;
+  width: 5rem;
+  margin-bottom: 0.625rem;
 }
 .name {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 500;
 }
 .status {
-  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1.125rem;
   font-weight: 300;
   color: red;
 }

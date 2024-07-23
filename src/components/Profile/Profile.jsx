@@ -3,9 +3,9 @@ import css from "./Profile.module.css";
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div className={clsx(css["container"])}>
-      <div className={clsx(css["about"])}>
-        <img className={clsx(css["img"])} src={image} alt="User avatar" />
+    <div className={clsx(css.wrapper)}>
+      <div className={clsx(css.about)}>
+        <img className={clsx(css.img)} src={image} alt="User avatar" />
         <p className={clsx(css["about-name"])}>{name}</p>
         <p className={clsx(css["about-text"])}>@{tag}</p>
         <p className={clsx(css["about-text"])}>{location}</p>
